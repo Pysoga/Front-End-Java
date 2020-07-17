@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <TextView
+        android:id="@+id/tv_speed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Speed"
+        android:textStyle="bold" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_025"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_speed_name"
+        android:text="0.25x" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_050"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_025"
+        android:text="0.5x" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_075"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_050"
+        android:text="0.75x" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_075"
+        android:text="Normal (1x)" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_125"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_100"
+        android:text="1.25x" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_125"
+        android:text="1.5x" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_175"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_150"
+        android:text="1.75" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_speed_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_speed_175"
+        android:text="2x" />
+
+</RelativeLayout>

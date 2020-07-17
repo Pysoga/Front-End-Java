@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <TextView
+        android:id="@+id/tv_quality_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quality"
+        android:textStyle="bold"
+        android:clickable="true"/>
+
+    <CheckedTextView
+        android:id="@+id/ctv_quality_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_quality_name"
+        android:text="Auto" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_quality_1080"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_quality_auto"
+        android:text="1080p" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_quality_720"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_quality_1080"
+        android:text="720p" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_quality_480"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_quality_720"
+        android:text="480p" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_quality_360"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ctv_quality_480"
+        android:text="360p" />
+
+</RelativeLayout>

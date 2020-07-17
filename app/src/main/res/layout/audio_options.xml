@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <TextView
+        android:id="@+id/tv_audio_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Audio"
+        android:textStyle="bold" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_audio_stereo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_audio_name"
+        android:text="Stereo" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_audio_mono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_audio_stereo"
+        android:text="Mono" />
+</RelativeLayout>

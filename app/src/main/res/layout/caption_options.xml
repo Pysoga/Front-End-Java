@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <TextView
+        android:id="@+id/tv_caption_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Caption"
+        android:textStyle="bold" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_caption_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_caption_name"
+        android:text="Auto" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_caption_unidentified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctv_caption_auto"
+        android:text="Unidentifed" />
+
+</RelativeLayout>
